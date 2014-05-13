@@ -7,8 +7,6 @@
     <tiles:importAttribute/>
 
 
-    <!--<c:url value="/resources/text.txt" var="url"/>-->
-    <!--<spring:url value="/resources/text.txt" htmlEscape="true" var="springUrl"/>-->
     <cdsas:set>
     Time: ${time}
     <br/>

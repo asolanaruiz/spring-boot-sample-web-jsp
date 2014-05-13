@@ -163,41 +163,34 @@
 
 	<properties>
 		<main.basedir>${basedir}/../..</main.basedir>
-		<spring.boot.version>1.1.0-SNAPSHOT</spring.boot.version>
+		<spring.boot.version>1.0.2.RELEASE</spring.boot.version>
 		<main.class>sample.jsp.SampleWebJspApplication</main.class>
 		<tiles.version>3.0.3</tiles.version>
 		<spring.version>4.0.4.RELEASE</spring.version>
 	</properties>
 
-	<repositories>
-		<repository>
-			<id>maven-central</id>
-			<url>http://repo1.maven.org/maven/</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
-		<repository>
-			<id>spring-snapshots</id>
-			<url>http://repo.spring.io/snapshot</url>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
-		<repository>
-			<id>spring-milestones</id>
-			<url>http://repo.spring.io/milestone</url>
-		</repository>
-	</repositories>
-	<pluginRepositories>
-		<pluginRepository>
-			<id>spring-snapshots</id>
-			<url>http://repo.spring.io/snapshot</url>
-		</pluginRepository>
-		<pluginRepository>
-			<id>spring-milestones</id>
-			<url>http://repo.spring.io/milestone</url>
-		</pluginRepository>
-	</pluginRepositories>
+	<!--<repositories>-->
+		<!--<repository>-->
+			<!--<id>spring-snapshots</id>-->
+			<!--<url>http://repo.spring.io/snapshot</url>-->
+			<!--<snapshots>-->
+				<!--<enabled>true</enabled>-->
+			<!--</snapshots>-->
+		<!--</repository>-->
+		<!--<repository>-->
+			<!--<id>spring-milestones</id>-->
+			<!--<url>http://repo.spring.io/milestone</url>-->
+		<!--</repository>-->
+	<!--</repositories>-->
+	<!--<pluginRepositories>-->
+		<!--<pluginRepository>-->
+			<!--<id>spring-snapshots</id>-->
+			<!--<url>http://repo.spring.io/snapshot</url>-->
+		<!--</pluginRepository>-->
+		<!--<pluginRepository>-->
+			<!--<id>spring-milestones</id>-->
+			<!--<url>http://repo.spring.io/milestone</url>-->
+		<!--</pluginRepository>-->
+	<!--</pluginRepositories>-->
 
 </project>
