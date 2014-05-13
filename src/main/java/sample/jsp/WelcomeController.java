@@ -26,14 +26,14 @@ import java.util.Map;
 @Controller
 public class WelcomeController {
 
-	@Value("${application.message:Hello World}")
-	private String message = "Hello World";
+    @Value("${application.message:Hello World}")
+    private String message = "Hello World";
 
-	@RequestMapping("/welcome")
-	public String welcome(Map<String, Object> model) {
-		model.put("time", new Date());
-		model.put("message", this.message);
-		return "page.welcome";
-	}
+    @RequestMapping("/welcome")
+    public String welcome(Map<String, Object> model) {
+        model.put("time", new Date());
+        model.put("message", this.message);
+        return "page.welcome";
+    }
 
 }

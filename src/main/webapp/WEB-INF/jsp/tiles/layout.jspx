@@ -1,5 +1,5 @@
 <jsp:root xmlns:jsp="http://java.sun.com/JSP/Page"
-        xmlns="http://www.w3.org/1999/xhtml" version="2.1" xmlns:tiles="http://tiles.apache.org/tags-tiles" xmlns:c="http://java.sun.com/jsp/jstl/core">
+        xmlns="http://www.w3.org/1999/xhtml" version="2.1" xmlns:tiles="http://tiles.apache.org/tags-tiles">
     <jsp:directive.page contentType="text/html" pageEncoding="UTF-8"/>
 
     <jsp:output
@@ -9,13 +9,6 @@
 
     <tiles:importAttribute/>
 
-    <html>
-    <body>
-    <c:set var="abc">
-        <tiles:insertAttribute name="body"/>
-    </c:set>
-    ${abc}
-    </body>
-    </html>
+    <tiles:insertAttribute name="layout-body"/>
 
 </jsp:root>
