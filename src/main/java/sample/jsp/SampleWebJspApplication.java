@@ -33,11 +33,11 @@ public class SampleWebJspApplication extends SpringBootServletInitializer {
 
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-        return application.sources(SampleWebJspApplication.class, ServletContainerConfig.class);
+        return application.sources(SampleWebJspApplication.class);
     }
 
     public static void main(String[] args) throws Exception {
-        SpringApplication.run(new Object[] {SampleWebJspApplication.class, ServletContainerConfig.class}, args);
+        SpringApplication.run(SampleWebJspApplication.class, args);
     }
 
     @Bean
