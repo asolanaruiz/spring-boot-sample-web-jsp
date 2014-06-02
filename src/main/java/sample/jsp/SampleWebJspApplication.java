@@ -37,5 +37,5 @@ public class SampleWebJspApplication extends SpringBootServletInitializer {
         tilesConfigurer.setDefinitions("/WEB-INF/defs/tiles-defs.xml");
         return tilesConfigurer;
     }
-
+    
 }

@@ -10,6 +10,10 @@
     <tiles:importAttribute/>
 
     <html>
+<head>
+<title>Tiles Test</title>
+<link rel="stylesheet" href="/css/main.css" />
+</head>
     <body>
 
     <h1>Error display test</h1>
