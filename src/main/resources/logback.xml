@@ -1,0 +1,16 @@
+<configuration>
+	<property name="LOG_FILE" value="/tmp/tiles.log"/>
+	<include resource="org/springframework/boot/logging/logback/base.xml"/>
+
+	<logger name="org.apache.zookeeper" level="WARN"/>
+	<logger name="org.apache.curator" level="WARN"/>
+	<logger name="o.a.c.f" level="WARN"/>
+	<logger name="o.apache.curator" level="WARN"/>
+
+	<root level="INFO">
+		<appender-ref ref="FILE"/>
+	</root>
+	<root level="INFO">
+		<appender-ref ref="CONSOLE"/>
+	</root>
+</configuration>
